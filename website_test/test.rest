@@ -1,0 +1,25 @@
+### Test GET / website
+
+GET http://localhost:3000
+
+
+### TEST GET
+
+Get http://localhost:3000/test
+
+
+### TEST endpoint
+Get http://localhost:3000/api/data
+
+### data enpoint for adding user
+
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+{
+    "name": "william"
+}
+
+### Delete endppoint
+
+DELETE http://localhost:3000/api/data
