@@ -1,4 +1,6 @@
 import { DatabaseSync } from 'node:sqlite'
+
+//local memory database
 const db = new DatabaseSync(':memory:')
 
 db.exec(`
